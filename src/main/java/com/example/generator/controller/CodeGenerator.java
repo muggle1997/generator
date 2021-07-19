@@ -50,6 +50,7 @@ public class CodeGenerator {
 
         //数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
+        dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUrl("jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia"+"/Shanghai");
         dsc.setUsername("root");
         dsc.setPassword("root");

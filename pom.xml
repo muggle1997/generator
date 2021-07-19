@@ -41,7 +41,7 @@
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
-            <version></version>
+            <version>2.3.31</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
