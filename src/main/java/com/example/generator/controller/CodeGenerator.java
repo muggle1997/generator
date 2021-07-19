@@ -39,7 +39,7 @@ public class CodeGenerator {
         //全局配置
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir(projectPath+"/scr/main/java");
+        gc.setOutputDir(projectPath+"/src/main/java");
         //作者
         gc.setAuthor("muggle");
         //打开输出目录
